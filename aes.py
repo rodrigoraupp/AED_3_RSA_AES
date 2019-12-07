@@ -1,4 +1,0 @@
-from Crypto.Cipher import AES
-ciphertext = 'U2FsdGVkX18GOEOW9JWvz65r1bWsle2dMwO6nV11mW0APl8Jz+AZ1bwi7V9Ykxr8lbUr2PJ6IXd5nRcbq0rivMJpZTB6RQOwupTAPmAlFr98PbIQUIszaA+BTjYsWq3QpYqAJ4BVqqY39H0EhXsuKwMv4tcolzWfEajAuHqVUbks/EqWA7H6v1B9jH/5EzYfscLVm+L+YOI3R2ARwegt5b6sPaIID92k7ioM7iRjM09Ycxrs9EvJVsXdOCLWDvGt29m/dRhtobTeXgBFctaUwGG2gRLkA/RuP4Kmm7dFuUHiOkL5/Xckq7Lpn3+UR94h'
-obj2 = AES.new('6AYwFJffIFVVpYkCUFf4Jw==', AES.MODE_CBC,'')
-print(obj2.decrypt(ciphertext))

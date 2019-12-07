@@ -28,4 +28,7 @@ Chave AES:
 6AYwFJffIFVVpYkCUFf4Jw==
 
 Com a chave em mãos, é possível descriptografar o texto cifrado.
+Usei o comando no openssl
+aes-256-cbc -salt -a -d -in ciphertext.enc -out MENSAGEM.txt
+Em seguida, pediu a senha. Digitei a senha AES que descriptografei e o texto foi revelado.
 https://www.devglan.com/online-tools/aes-encryption-decryption //usar para descriptografar aes tendo a chave
