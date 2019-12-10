@@ -1,3 +1,15 @@
+Como criptoanalista no Biuro Szyfrów, você interceptou uma mensagem cifrada, criptografada com AES 256 bits, cuja chave foi criptografada utilizando uma chave pública RSA. Você tem acesso tanto a mensagem cifrada como a chave cifrada. Sabe ainda que provavelmente foi utilizado o programa openssl para realizar ambas encriptações.
+
+Sua tarefa é obter a mensagem cifrada. 
+
+Ao concluir a tarefa, submeta os procedimentos adotados que permitam replicar o processo, bem como a senha e a mensagem originais, em um único arquivo PDF.
+
+A nota deste trabalho comporá a nota de trabalhos da disciplina. Será avaliado da seguinte forma:
+
+- Nota máxima para os trabalhos corretos entregues até o dia 12/12;
+- 85% da nota máxima para trabalhos corretos entregues até o dia 15/12;
+- Cada trabalho correto entregue até 12/12 receberá até 2,0 pontos adicionais. Este bônus de 2 pontos será dividido pelo número de trabalhos corretos entregues pela turma.
+
     1.Introdução 
 
 O trabalho proposto envolve três arquivos interceptados usando técnicas de criptografia conhecidas. Os arquivos contam com um texto cifrado em AES-256 bits, a chave que descriptografa esse texto mas que está criptografado por RSA, cuja chave pública usada é o terceiro arquivo. É sabido que o programa OpenSSL foi provavelmente utilizado para realizar as encriptações. A partir de todos esses dados deverá ser feita a criptoanálise e quebra da mensagem cifrada. 
